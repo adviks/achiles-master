@@ -1,0 +1,64 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Asad Advik"
+theme = "ink"
+paginate = 5
+
+copyright = "© Asad Advik"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "ink-demo"
+
+[params]
+	subtitle = "philosophy, psychology, and study tips"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://cdn.substack.com/image/fetch/w_90,h_90,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2ab7e68-f0ac-4e62-86d3-1bf2491f18ee_500x500.png"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+# [[params.social]]
+# name = "Github"
+# icon = "github"
+# url = ""
+
+# [[params.social]]
+# name = "RSS"
+# icon = "rss"
+# url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"
